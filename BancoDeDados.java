@@ -11,6 +11,11 @@ public class BancoDeDados {
     private static final String RELATORIO_FILE = "data/relatorio_adocoes.txt";
     private static final String RELATORIOC_FILE = "data/relatorio_cadastros.txt";
     private int ultimoIdAdotante = 0; 
+    
+    
+//    Grupo Teste
+//    Thiago
+//    Miguel
 
     public BancoDeDados() {
         criarDiretorios();
