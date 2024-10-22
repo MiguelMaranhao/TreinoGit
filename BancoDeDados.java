@@ -172,7 +172,7 @@ public class BancoDeDados {
                 }
             }
         } catch (IOException e) {
-            System.out.println("\nErro ao listar animais disponíveis: " + e.getMessage());
+            System.out.println("\nErro ao listar animais disponíveis: " + e.getMessage() + (" É necessário cadastrar um animal!"));
         }
 
         return animais;
@@ -191,7 +191,7 @@ public class BancoDeDados {
                 adotantes.add(new Adotante(id, nome, endereco, contato));
             }
         } catch (IOException e) {
-            System.out.println("\nErro ao listar adotantes: " + e.getMessage());
+            System.out.println("\nErro ao listar adotantes: " + e.getMessage() + (" É necessário cadastrar um adotante!"));
         }
         return adotantes;
     }
@@ -217,7 +217,7 @@ public class BancoDeDados {
             }
         }
     catch (IOException e) {
-        System.out.println("\nErro ao listar todos animais: " + e.getMessage());
+        System.out.println("\nErro ao listar todos animais: " + e.getMessage() + (" É necessário cadastrar um animal!"));
     }
 
     return animais;
